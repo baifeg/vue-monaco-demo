@@ -1,0 +1,19 @@
+{
+  "name": "webpack-demo1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --host 0.0.0.0",
+    "build": "webpack -p"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
